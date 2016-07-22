@@ -1,3 +1,7 @@
+num=456
+out = "the number is #{num}"
+puts out
+
 data = ["1","2","3","4","5"]
 s=""
 data.each {|v| s << v << ' and a ' }
